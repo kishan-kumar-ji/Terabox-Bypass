@@ -1,6 +1,4 @@
-<div style="text-align:center" align="center">
-  <img src="./bot.jpg" alt="Bot Logo" width="200"/>
-</div>
+
 
 # TeraBox Link Bypass Bot 🚀
 
