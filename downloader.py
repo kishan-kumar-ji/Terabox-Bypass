@@ -76,8 +76,8 @@ async def fetch_download_link_async(url):
             response.raise_for_status()
             response_data = await response.text()
 
-            js_token = await find_between(response_data, 'fn%28%22', '%22%29')
-            log_id = await find_between(response_data, 'dp-logid=', '&')
+            js_token ='3D1900FFEDE22A36D2E6D36ABAAE9CEB74926E292F0986A22DEF1DA25812774556754CAACE1AD4C44240AB83098E4DDC9DAA210A461D3A837D60301AEBC78DFD'
+            log_id = '59350200172865410009'
 
             if not js_token or not log_id:
                 return None
